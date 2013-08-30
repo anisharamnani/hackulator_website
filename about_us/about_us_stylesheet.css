@@ -1,0 +1,56 @@
+#nav a {
+	display: block;
+	float: left;
+	color: #fff;
+	text-decoration: none;
+	width:33%;
+	text-align: center;
+	/*padding: 0 40px;*/
+	line-height: 50px;
+	border-right: 2px solid rgba(0,0,0, .4);
+	border-bottom: 2px solid rgba(0,0,0, .4);
+	border-radius:10px;
+}
+
+#nav a:hover {
+	background: rgba(169,222,24, .8);
+	border-radius:10px;
+	border-right: 2px solid rgba(0,0,0, .95);
+	border-bottom: 2px solid rgba(0,0,0, .95);
+}
+
+#nav { 
+	height: 50px;
+	background: rgba(169,222,24, 0.5);
+	border-radius:10px;
+}
+#container {
+	width: 900px;
+	margin: 0 auto;    /*centers it*/
+	background:rgba(255,255,255, 0.65);
+	border-radius:10px;
+	border-right:rgba(0,0,0, 0.45) ;  /*my failed attempt at giving it a shadow*/
+	border-bottom:rgba(0,0,0, 0.45) ;
+}
+/*formatting the "why do calculators cost..." statement at the top*/
+#header {
+	text-align: center;   
+	padding: 0px 0px 0px 85px;
+	margin-top:20px;
+	font-size: 40px;
+	color: #004a7f;
+	font-weight: bold;
+}
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px
+}
+
+/*<span class="icon-stack">
+  <i class="icon-check-empty icon-stack-base"></i>
+  <i class="icon-twitter"></i>
+</span> */
+
+body div table tr {
+	padding: 400px;
+}
