@@ -43,6 +43,7 @@ body {
 	border-radius:10px;
 	border-right:rgba(0,0,0, 0.45) ;  /*my failed attempt at giving it a shadow*/
 	border-bottom:rgba(0,0,0, 0.45);
+	padding: 100px;
 }
 /*formatting the "why do calculators cost..." statement at the top*/
 #header {
@@ -52,10 +53,4 @@ body {
 	font-size: 40px;
 	color: #004a7f;
 	font-weight: bold;
-}
-
-
-
-body div table tr {
-	text-decoration: none;
 }
